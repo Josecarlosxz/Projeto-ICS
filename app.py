@@ -9,7 +9,7 @@ def index():
     return redirect(url_for('auth.cadastro'))
 
 # Configuração MySQL: usuario:senha@host/nome_do_banco
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:luci87@5@localhost/db_ICS'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:senha123@localhost/db_ICS'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 # Inicializa o banco com o app
